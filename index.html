@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+   <script>
+ var firebaseConfig = {
+  apiKey: "AIzaSyA1hbfuR-BHLnox7Nl6yej06GmDBIL2Jwg",
+  authDomain: "c-35-bb2c8.firebaseapp.com",
+  databaseURL: "https://c-35-bb2c8-default-rtdb.firebaseio.com",
+  projectId: "c-35-bb2c8",
+  storageBucket: "c-35-bb2c8.appspot.com",
+  messagingSenderId: "381981101785",
+  appId: "1:381981101785:web:9a80cc5146c2a090b378c8"
+};
+ firebase.initializeApp(firebaseConfig)
+
+    </script>
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
